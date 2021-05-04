@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" /> 
+
+    <base href="{{ .Site.BaseURL }}" />
+
+    {{ $css := resources.Get "css/dist/main.css" | toCSS }} 
+    {{ $style := $css | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" />
+    <title>{{.Site.Title }} - {{ .Title }}</title>
+  </head>
+
+  <body>
+    <div class="md:flex flex-col md:flex-row md:min-h-screen w-full">
+    {{ partial "nav.html" . }}
+
+  <div>
+    <header>
+      <img src="http://gingerdolls.dk/images/header.png" width="100%" />
+    </header>
+
+    <a id="top"></a>
+    <main id="main-content">
+      {{ block "main" . }}
+      {{ end }}
+      <a class="top" href="#top">Til toppen / To the top</a>
+    </main>
+    </div>
+    </div>
+  </body>
+</html>

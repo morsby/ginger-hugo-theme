@@ -1,9 +1,3 @@
-{{ partial "header.html" . }}
-
-{{ range .Data.Pages }}
-    {{if eq .Type "index" }} 
-        {{.Content}}
-    {{end}}
+{{ define "main" }}
+    {{.Content}} 
 {{ end }}
-
-{{ partial "footer.html" . }}
