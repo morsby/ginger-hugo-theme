@@ -1,0 +1,52 @@
+<noscript><p>
+    Ups - gæstebogen kræver, som så meget andet på nettet nu om dage, JavaScript aktiveret. Bare rolig – der sker intet ved at aktivere det her på siden.
+</p>
+<p>
+Oops - this guestbook (as most other things on the web these days) require that JavaScript is activated in your browser. Don't worry – we won't abuse this.
+</p></noscript>
+<div class="gaestebog-form">
+<ul class="collapsible" data-collapsible="accordion">
+    <li>
+    <div class="collapsible-header">Skriv en besked! Write me a message!</div>
+      <div class="collapsible-body row">
+        <form class="col-xs-12" id="myForm" action="{{ .Permalink }}">
+          <div class="row">
+            <div class="input-field col-xs-12">
+              <input id="name" name="name" type="text" class="validate user" required>
+              <label for="name" data-error="Du skal indtaste et navn / You must enter a name">Name*</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col-xs-6">
+              <input id="email" name="email" type="email" class="validate user" required>
+              <label for="email" data-error="Du skal indtaste en gyldig email-addresse / You must enter a valid email address">Email*</label>
+            </div>
+            <div class="input-field col-xs-6">
+              <input id="website" name="website" type="url" class="validate user">
+              <label for="website" data-error="Hvis du skriver noget her, skal det være en gyldig adresse (starte med http://) / If you write something here, it must be a valid URL (i.e. starting with http://)">Website</label>
+            </div>
+          </div>
+          <div class="row">
+                 <div class="input-field col-xs-12">
+                   <textarea id="message" name="message" class="materialize-textarea user" required></textarea>
+                   <label for="message" data-error="Du skal skrive en besked (det er jo hele meningen!) / You must leave a message (that's the whole point!)">Message*</label>
+                 </div>
+           </div>
+           
+               <input type="hidden" name="submit" value="submit">
+               <button class="g-recaptcha btn" data-sitekey="6LcaTh4UAAAAAOSWgQ4iX_Eex6CuwQN3inj2hrlj" data-callback="onSubmit">Submit</button>
+        </form>
+        <div class="col-xs-12 gaestebog-form-info">
+            * indikerer et krævet felt. Din email vil dog ikke blive vist nogen steder.
+            <hr>
+            * indicates required fields. Your email will not be shown anywhere, though.
+        </div>
+      </div>
+    </li>
+  </ul>
+  
+  <div class="result guestbook">
+      <div class="center-align">Henter beskeder ...</div>
+      <div class="center-align">Fetching messages ...</div>
+  </div>
+</div>

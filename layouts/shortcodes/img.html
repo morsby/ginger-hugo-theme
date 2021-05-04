@@ -1,0 +1,17 @@
+<figure {{ with .Get "class" }}class="{{.}}" {{ end }}>
+    {{ if .Get "link"}} {{ if findRE "(klik)" (.Get "class") }}
+    <a href="{{ if and (not (in (.Get "link") "http")) (in (lower (.Get "link")) ".jpg") }}http://gingerdolls.dk/{{ .Get "link" }}{{ else }}{{ .Get "link" }}{{ end }}" data-fancybox{{ with .Get "gallery"}}="{{.}}" {{end}} {{ if or (.Get "alt") (.Get "caption") }}data-caption="{{ with .Get "caption" }}{{. | markdownify | plainify }}{{ end }}"{{ end }}>  
+            {{ else }} 
+        <a href="{{ if and (not (in (.Get "link") "http")) (in (.Get "link") ".jpg") }}http://gingerdolls.dk/{{ .Get "link" }}{{ else }}{{ .Get "link" }}{{end}}">{{ end }} {{ end }}
+        <img src="{{ if not (in (.Get "src") "http") }}http://gingerdolls.dk/{{ .Get "src" }}{{ else }}{{ .Get "src" }}{{end}}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" | markdownify | plainify  }}{{ end }}"{{ end }} />
+    {{ if .Get "link"}}</a>{{ end }} {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
+    <figcaption>{{ if isset .Params "title" }}
+        <h4>{{ .Get "title" }}</h4>{{ end }} {{ if or (.Get "caption") (.Get "attr")}}
+        <p>
+            {{ .Get "caption" | markdownify }} {{ with .Get "attrlink"}}<a href="{{.}}"> {{ end }}
+            {{ .Get "attr" }}
+        {{ if .Get "attrlink"}}</a> {{ end }}
+        </p> {{ end }}
+    </figcaption>
+    {{ end }}
+</figure>

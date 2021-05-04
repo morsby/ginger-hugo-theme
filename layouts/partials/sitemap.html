@@ -1,0 +1,50 @@
+
+
+{{ range .Data.Pages.ByTitle.GroupBy "Section" }}
+<h3>{{ .Key }}</h3>
+<ul>
+    {{ range .Pages }}
+    {{ if ne .Title "GingerDolls (Beta)"}}
+    <li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+    </li>
+    {{ end }}
+    {{ end }}
+</ul>
+{{ end }}
+
+
+<p>Sitemap start</p>
+<!-- Find all top-level subfolders in content (e.g. content/post/) -->
+
+{{ range .Data.Pages }}
+{{ if eq .Section "" }}
+
+{{ .Title }}<br>
+{{ end }}
+{{ end }}
+
+{{ range .Site.Menus.main }}
+    <!-- Get the section name -->
+    {{ $section := index (split .URL "/") 1 }}
+    <!-- If the section isn't found yet add him with a delimiter-->
+    {{ if (not (in (split ($.Scratch.Get "sections") "|" ) $section)) }}
+        {{ $.Scratch.Add "sections" $section }}
+        {{ $.Scratch.Add "sections" "|" }}
+    {{ end }}
+{{ end }}
+<ul>
+    {{ $allSections := (split ($.Scratch.Get "sections") "|") }}
+    <!-- Now $allSections contains all sections. But the splitting caused that the last index is an empty string (or a non-valid section). Let's ignore this index by correcting the number of indexes. -->
+    {{ $numOfSections := sub (len $allSections) 1 }}
+    {{ range first $numOfSections $allSections }}
+        <li> <b>Section "{{ . }}" contais:</b>
+            <!-- Find all pages in the current section -->
+            {{ range where $.Site.Pages "Section" . }}
+                <li>{{ .Title }}</li>
+            {{ end }}
+        </li>
+    {{ end }}
+</ul>
+<p>sitemap slut</p>

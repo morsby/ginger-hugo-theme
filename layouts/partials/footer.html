@@ -1,0 +1,15 @@
+     <a class="top" href="#top">Til toppen / To the top</a>
+      </main>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="{{ .Site.BaseURL }}js/materialize.min.js"></script>
+      <!-- <script type="text/javascript" src="{{ .Site.BaseURL }}js/materialbox.js"></script> -->
+    <script type="text/javascript" src="{{ .Site.BaseURL }}js/fancybox.min.js"></script> 
+    <script type="text/javascript" src="{{ .Site.BaseURL }}js/perfect-scrollbar.jquery.min.js"></script> 
+     
+      <script type="text/javascript" src="{{ .Site.BaseURL }}js/scripts.js"></script> 
+      {{ if eq .Type "guestbook" }}
+      <script type="text/javascript" src="{{ .Site.BaseURL }}js/guestbook.js"></script>
+      {{ end }}
+    </body>
+  </html>

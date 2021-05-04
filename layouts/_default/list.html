@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+
+<h1>{{if eq .Section "news"}} Nyheder / News {{ else }}{{ .Title }}{{ end }}</h1>
+
+{{ range .Data.Pages }}
+   {{ .Render "single-item" }}
+{{ end }}
+
+
+
+{{ partial "footer.html" . }}
