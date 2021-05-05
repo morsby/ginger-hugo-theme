@@ -1,4 +1,4 @@
-<figure {{ with .Get "class" }}class="text-center {{.}}" {{ end }}>
+<figure {{ with .Get "class" }}class="text-center mx-auto {{.}}" {{ end }}>
     {{ if .Get "link"}}
         <a href="{{ if and (not (in (.Get "link") "http")) (in (.Get "link") ".jpg") }}http://gingerdolls.dk/{{ .Get "link" }}{{ else }}{{ .Get "link" }}{{end}}">
     {{ end }}  

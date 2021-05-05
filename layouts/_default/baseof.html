@@ -4,8 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" /> 
 
-    <base href="{{ .Site.BaseURL }}" />
-
     {{ $css := resources.Get "css/dist/main.scss" | toCSS }} 
     {{ $style := $css | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}" />
@@ -26,7 +24,7 @@
         {{ end }}
       </main>
 
-      <footer>
+      <footer class="p-6 lg:px-12">
         &copy; {{ now.Format "2006" }}. <a class="top" href="#top">Til toppen / To the top</a>
       </footer>
       </div>

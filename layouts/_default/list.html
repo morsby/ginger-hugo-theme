@@ -1,5 +1,11 @@
-<h1>{{if eq .Section "news"}} Nyheder / News {{ else }}{{ .Title }}{{ end }}</h1>
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
 
 {{ range .Data.Pages }}
    {{ .Render "single-item" }}
+{{ end }}
+
 {{ end }}

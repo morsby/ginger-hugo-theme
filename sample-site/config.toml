@@ -2,8 +2,15 @@ baseURL = "http://beta.gingerdolls.dk/"
 languageCode = "da-dk"
 title = "GingerDolls"
 theme = "ginger-hugo-theme"
+defaultContentLanguage = "da"
+
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+
+[languages]
+  [languages.da]
+  [languages.en]
