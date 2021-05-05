@@ -1,4 +1,9 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http://beta.gingerdolls.dk/"
+languageCode = "da-dk"
+title = "GingerDolls"
 theme = "ginger-hugo-theme"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

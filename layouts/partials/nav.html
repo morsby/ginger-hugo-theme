@@ -1,6 +1,6 @@
-<div class="flex flex-col w-full md:w-64 text-gray-700 bg-white flex-shrink-0">
-  <div class="flex-shrink-0 px-8 py-4 flex flex-row items-center justify-between">
-    <a href="#" class="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg focus:shadow-outline">Flowtrail UI</a>
+<div class="flex flex-col w-full md:w-64 text-gray-700 bg-white flex-shrink-0 md:max-h-screen md:overflow-y-auto">
+  <div class="flex-shrink-0 px-8 py-4 flex flex-row items-center justify-between sticky top-0 bg-white z-50">
+    <a href="#" class="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg focus:shadow-outline">{{ .Site.Title }} </a>
     <button class="rounded-lg md:hidden rounded-lg focus:shadow-outline">
       <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
         <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
@@ -8,22 +8,26 @@
       </svg>
     </button>
   </div>
-  <nav class="flex-grow md:block px-4 pb-4 md:pb-0 md:overflow-y-auto">
-    <a class="nav-item" href="#">Blog</a> 
-    <a class="nav-item" href="#">Portfolio</a>
-    <a class="nav-item" href="#">About</a>
-    <a class="nav-item" href="#">Contact</a>
-    <div class="nav-subnav">
-      <input class="absolute opacity-0" type="checkbox" name="subnavs" id="dropdown">
-      <label class="nav-item" for="dropdown">
-        <span>Dropdown</span>
-        <svg fill="currentColor" viewBox="0 0 20 20" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-      </label>
-      <div class="nav-subnav-items">
-        <a class="nav-subitem" href="#">Link #1</a>
-        <a class="nav-subitem" href="#">Link #2</a>
-        <a class="nav-subitem" href="#">Link #3</a>
-      </div>
-    </div>
+  
+<nav class="flex-grow md:block px-4 pb-4 md:pb-0">
+     {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+            <div class="nav-subnav">
+              <input class="absolute opacity-0" type="checkbox" name="subnavs" id="subnav-{{ .Name }}">
+              <label class="nav-item" for="subnav-{{ .Name }}">
+                <span>{{ .Name }}</span>
+                <svg fill="currentColor" viewBox="0 0 20 20" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              </label>
+              <div class="nav-subnav-items">
+                {{ range .Children }}
+                   <a class="nav-item" href="{{ .URL }}">{{ .Name }}</a>
+                {{ end }}
+              </div>
+            </div>
+          {{ else }}
+            <a class="nav-item" href="{{ .URL }}">{{ .Name }}</a>
+          {{ end }}
+      {{ end }}    
   </nav>
 </div>
