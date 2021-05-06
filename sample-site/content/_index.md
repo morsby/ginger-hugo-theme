@@ -60,4 +60,4 @@ Der er billeder af de fleste af mine dukker og lidt historie og lidt tips om duk
     caption="A dog on a beach."
 \ >}}
 
-{{< grid >}}
+{{< /grid >}}

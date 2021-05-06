@@ -25,7 +25,7 @@
     {{ $link = path.Join .Site.Params.CloudinaryBaseURL (.Get "src") }}
 {{ end }}
 
-<figure class="text-center mx-auto {{ .Get "class" }}">
+<figure {{ with "class" }} class="{{ . }}" {{ end }}>
     {{ if $link }}
         <a href="{{ $link }}">
     {{ end }}  
@@ -37,8 +37,8 @@
     
     {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
     <figcaption>{{ if isset .Params "title" }}
-        <h4>{{ .Get "title" }}</h4>{{ end }} {{ if or (.Get "caption") (.Get "attr")}}
-        <p>
+        <h4 class="text-center">{{ .Get "title" }}</h4>{{ end }} {{ if or (.Get "caption") (.Get "attr")}}
+        <p class="text-center">
             {{ .Get "caption" | markdownify }} {{ with .Get "attrlink"}}<a href="{{.}}"> {{ end }}
             {{ .Get "attr" }}
         {{ if .Get "attrlink"}}</a> {{ end }}
