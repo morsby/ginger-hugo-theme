@@ -1097,12 +1097,7 @@ footer {
     & > * {
 		justify-self: center;
 	}
-
-    & > * {
-        & + * {
-			padding-left: 0.75rem;
-		}
-    }
+    
     & *:nth-child(2n+1) {
         border-left-width: 0;
         grid-column: 1;

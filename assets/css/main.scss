@@ -51,10 +51,8 @@ footer {
 
     & > * {
         @apply block mx-auto justify-self-center;
-        & + * {
-            @apply pl-3;
-         }
     }
+    
     & *:nth-child(2n+1) {
         border-left-width: 0;
         grid-column: 1;

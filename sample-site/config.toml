@@ -4,6 +4,8 @@ title = "GingerDolls"
 theme = "ginger-hugo-theme"
 defaultContentLanguage = "da"
 
+[params]
+  CloudinaryBaseURL = "https://res.cloudinary.com/dw0rj924o/image/upload"
 
 [markup]
   [markup.goldmark]

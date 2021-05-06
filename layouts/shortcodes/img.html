@@ -1,12 +1,39 @@
-<figure {{ with .Get "class" }}class="text-center mx-auto {{.}}" {{ end }}>
-    {{ if .Get "link"}}
-        <a href="{{ if and (not (in (.Get "link") "http")) (in (.Get "link") ".jpg") }}http://gingerdolls.dk/{{ .Get "link" }}{{ else }}{{ .Get "link" }}{{end}}">
+{{ $src := .Get "src" }}
+{{ $cloudinaryFn := "" }}
+{{ with .Parent }}
+    {{ $cloudinaryFn = "/ar_3:4,c_fill,g_auto/w_500" }}
+{{ end }}
+{{ if not (in (.Get "src") "http") }}
+ {{ $src = path.Join .Site.Params.CloudinaryBaseURL $cloudinaryFn "ginger" (.Get "src") }}
+{{ end }}
+
+{{ $alt := .Get "alt" }}
+{{ if eq $alt "" }}
+    {{ $alt = .Get "caption" | markdownify | plainify }}
+{{ end }}
+
+{{ $link := .Get "link" }}
+{{ if and 
+    (ne (substr $link 0 4 ) "http") 
+    (or 
+        (strings.HasSuffix $link "jpg") 
+        (strings.HasSuffix $link "jpeg") 
+        (strings.HasSuffix $link "gif") 
+        (strings.HasSuffix $link "png")
+    )
+}}
+    {{ $link = path.Join .Site.Params.CloudinaryBaseURL (.Get "src") }}
+{{ end }}
+
+<figure class="text-center mx-auto {{ .Get "class" }}">
+    {{ if $link }}
+        <a href="{{ $link }}">
     {{ end }}  
         <img 
-            src="{{ if not (in (.Get "src") "http") }}http://gingerdolls.dk/{{ .Get "src" }}{{ else }}{{ .Get "src" }}{{end}}"
-            {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" | markdownify | plainify  }}{{ end }}"{{ end }}
+            src="{{ $src }}"
+            alt="{{ $alt }}"
             class="mx-auto" />
-    {{ if .Get "link"}}</a>{{ end }} 
+    {{ if $link }}</a>{{ end }} 
     
     {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
     <figcaption>{{ if isset .Params "title" }}
