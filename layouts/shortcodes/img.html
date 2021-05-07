@@ -5,6 +5,7 @@
 {{ end }}
 {{ if not (in (.Get "src") "http") }}
  {{ $src = path.Join .Site.Params.CloudinaryBaseURL $cloudinaryFn "ginger" (.Get "src") }}
+ {{ $src = replace $src "https:/res" "https://res" }}
 {{ end }}
 
 {{ $alt := .Get "alt" }}
@@ -23,6 +24,7 @@
     )
 }}
     {{ $link = path.Join .Site.Params.CloudinaryBaseURL "ginger" (.Get "src") }}
+    {{ $link = replace $link "https:/res" "https://res" }}
 {{ end }}
 
 <figure {{ with "class" }} class="{{ . }}" {{ end }}>
