@@ -22,7 +22,7 @@
         (strings.HasSuffix $link "png")
     )
 }}
-    {{ $link = path.Join .Site.Params.CloudinaryBaseURL (.Get "src") }}
+    {{ $link = path.Join .Site.Params.CloudinaryBaseURL "ginger" (.Get "src") }}
 {{ end }}
 
 <figure {{ with "class" }} class="{{ . }}" {{ end }}>
