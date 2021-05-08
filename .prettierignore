@@ -1,0 +1,4 @@
+sample-site/**/*
+public
+layouts/shortcodes/img.html
+*.bak

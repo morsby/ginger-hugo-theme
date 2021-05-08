@@ -1,11 +1,9 @@
 {{ define "main" }}
+  <h1>{{ .Title }}</h1>
 
-<h1>{{ .Title }}</h1>
+  {{ .Content }}
 
-{{ .Content }}
-
-{{ range .Data.Pages }}
-   {{ .Render "single-item" }}
-{{ end }}
-
+  {{ range .Data.Pages }}
+    {{ .Render "single-item" }}
+  {{ end }}
 {{ end }}

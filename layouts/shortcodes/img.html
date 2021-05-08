@@ -27,6 +27,7 @@
     {{ $link = replace $link "https:/res" "https://res" }}
 {{ end }}
 
+
 <figure {{ with "class" }} class="{{ . }}" {{ end }}>
     {{ if $link }}
         <a href="{{ $link }}">
@@ -35,13 +36,17 @@
             src="{{ $src }}"
             alt="{{ $alt }}"
             class="mx-auto" />
-    {{ if $link }}</a>{{ end }} 
+    {{ if $link }}
+        </a>
+    {{ end }} 
     
     {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
     <figcaption>{{ if isset .Params "title" }}
-        <h4 class="text-center">{{ .Get "title" }}</h4>{{ end }} {{ if or (.Get "caption") (.Get "attr")}}
+        <h4 class="text-center">{{ .Get "title" }}</h4>{{ end }} 
+        {{ if or (.Get "caption") (.Get "attr")}}
         <p class="text-center">
-            {{ .Get "caption" | markdownify }} {{ with .Get "attrlink"}}<a href="{{.}}"> {{ end }}
+            {{ .Get "caption" | markdownify }} 
+        {{ with .Get "attrlink"}}<a href="{{.}}"> {{ end }}
             {{ .Get "attr" }}
         {{ if .Get "attrlink"}}</a> {{ end }}
         </p> {{ end }}

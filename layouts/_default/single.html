@@ -1,10 +1,7 @@
-
 {{ define "main" }}
+  {{ .Content }}
 
-{{ .Content }}
-
-{{ if eq .Type "guestbook" }}
-{{ partial "guestbook.html" .}}
-{{ end }}
-
+  {{ if eq .Type "guestbook" }}
+    {{ partial "guestbook.html" . }}
+  {{ end }}
 {{ end }}

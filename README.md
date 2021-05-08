@@ -10,4 +10,3 @@ A Hugo theme with TailwindCSS JIT.
 Both commands will output a CSS file to `assets/css/dist/main.css`, which is then imported into Hugo.
 
 In `sample-site/`, a test Hugo site is located, using this theme.
-
