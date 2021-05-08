@@ -1,0 +1,5 @@
+{{ if eq .LanguagePrefix "/en" }}
+  Last updated {{ dateFormat "01 Jan 2006" .Lastmod }}
+  {{ else }}
+  Sidst opdateret d. {{ dateFormat "02.01.2006" .Lastmod }}
+{{ end }}

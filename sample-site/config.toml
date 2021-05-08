@@ -3,6 +3,7 @@ languageCode = "da-dk"
 title = "GingerDolls"
 theme = "ginger-hugo-theme"
 defaultContentLanguage = "da"
+enableGitInfo = true
 
 [params]
   CloudinaryBaseURL = "https://res.cloudinary.com/dw0rj924o/image/upload"

@@ -4,4 +4,6 @@
   {{ if eq .Type "guestbook" }}
     {{ partial "guestbook.html" . }}
   {{ end }}
+
+  {{ partial "lastmod.html" . }}
 {{ end }}
