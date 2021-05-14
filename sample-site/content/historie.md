@@ -1,13 +1,13 @@
 ---
+date: "2017-02-28T16:35:10+01:00"
 title: "Historien bag de små dukker fra 50'ernes USA"
-menu:
-  main:
-    weight: 4
+
 ---
 
 # Historien bag de små dukker fra 50'ernes USA
 
 ## Starten
+
 
 ... på Ginger-dukkernes historie skal findes i 30'ernes USA.
 Grundlæggeren af firmaet Vogue Dolls importerede og videresolgte dukker
@@ -108,6 +108,7 @@ Så den fornuftigste løsning for alle os, der ikke er vildt seriøse
 samlere, er simpelthen at gå efter de dukker, vi kan lide! Jeg selv er
 fx ikke meget for de flotteste eksemplarer, dem amerikanerne kalder
 'mint' og 'pristine', for dem tør man jo knapt nok røre ved af frygt for
-at forringe deres værdi.
+at forringe deres værdi. 
+
 
 Opdateret d. 21.12.2011

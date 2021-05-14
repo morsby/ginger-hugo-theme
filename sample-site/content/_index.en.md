@@ -1,10 +1,11 @@
 ---
-title: "Welcome"
-date: 2021-05-04T10:34:28+02:00
-draft: false
+title: Welcome
+date: 2021-05-04T10:34:28.000+02:00
 menu:
-    main:
-        weight: 1
+  main:
+    name: Frontpage
+    weight: 2
+
 ---
 # Intro
 

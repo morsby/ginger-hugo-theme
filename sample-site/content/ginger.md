@@ -1,11 +1,11 @@
 ---
-date: "2017-02-28T16:35:10+01:00"
-title: "Om Ginger"
+date: 2017-02-28T16:35:10+01:00
+title: Om Ginger
 menu:
-    main:
-        weight: 5
----
+  main:
+    weight: 7
 
+---
 # GINGER
 
 {{% center %}}
@@ -57,10 +57,10 @@ knæ venter, som det kan ses, på en paryk.\
 
 
 
-{{< img src="images/thumb/Gingerdolls.jpg" 
+{{< img src="Gingerdolls.jpg" 
     caption="" 
     alt="5 Ginger-dukker af forskellig alder" 
-    link="images/Gingerdolls.jpg" 
+    link="Gingerdolls.jpg" 
     class="height-250 klik" 
     gallery=""
 \ >}}
@@ -76,18 +76,18 @@ sådan ud:
 
 {{< grid >}}
 
-{{< img src="images/thumb/GingerPam1.jpg" 
+{{< img src="GingerPam1.jpg" 
     caption="" 
     alt="Ginger-Pam" 
-    link="images/GingerPam1.jpg" 
+    link="GingerPam1.jpg" 
     class="height-250 klik" 
     gallery="gingerpam"
 \ >}}
 
-{{< img src="images/thumb/GingerPam2.jpg" 
+{{< img src="GingerPam2.jpg" 
     caption="" 
     alt="Ginger-Pam" 
-    link="images/GingerPam2.jpg" 
+    link="GingerPam2.jpg" 
     class="height-250 klik" 
     gallery="gingerpam"
 \ >}}
@@ -129,29 +129,29 @@ Hovedet blev efterfølgende forbedret, øjnene blev mere pålidelige, og
 nogle af disse senere dukker er faktisk ret fine.
 
 Dukkerne med paryk havde kun to frisurer:
-[Fletninger](images/panbraids.jpg) (bemærk at billedet helt til højre
+[Fletninger](/images/panbraids.jpg) (bemærk at billedet helt til højre
 viser en paryk, der IKKE er Gingers - for netop at vise, hvor specielle
-Gingers fletninger er) eller [flip/rulle](images/panflip.jpg) (hårdt
+Gingers fletninger er) eller [flip/rulle](/images/panflip.jpg) (hårdt
 oprullet hårkrans i nakkehøjde) i tre farver: Lysblond (kaldes
-platinblond), mellemblond eller [brun](images/1211_1958&1959NK_2.jpg).
-Dukkerne med vinylhoved havde [ret kort, let krøllet hår](images/1253_1958NK%20(2).jpg) eller en
-[hestehale](images/panponytail.jpg) højt oppe på hovedet i
-[platinblond](images/554&555_1957US_2b.jpg),
-mellem[blond](images/panblonderooted.jpg) og
-[brun](images/panbrunetterooted.jpg). Også mht hår var der derfor mindre
+platinblond), mellemblond eller [brun](/images/1211_1958&1959NK_2.jpg).
+Dukkerne med vinylhoved havde [ret kort, let krøllet hår](/images/1253_1958NK%20(2).jpg) eller en
+[hestehale](/images/panponytail.jpg) højt oppe på hovedet i
+[platinblond](/images/554&555_1957US_2b.jpg),
+mellem[blond](/images/panblonderooted.jpg) og
+[brun](/images/panbrunetterooted.jpg). Også mht hår var der derfor mindre
 variation end hos Ginny. Det stemmer dog ikke helt med de her
-farveangivelser, der var ingen parykker i platinblond, men i [flere nuancer af lys- og mellemblond](images/panblondewig.jpg), og der var
+farveangivelser, der var ingen parykker i platinblond, men i [flere nuancer af lys- og mellemblond](/images/panblondewig.jpg), og der var
 også en lysblond med rooted hår.
 
-Man ser nu og da dukker med kulørt hår. Dem af [hård plast](images/panothercolorswig.jpg) er sandsynligvis alle kopidukker
-(kloner), men dem med [hoved af vinyl](images/panothercolorsrooted.jpg)
+Man ser nu og da dukker med kulørt hår. Dem af [hård plast](/images/panothercolorswig.jpg) er sandsynligvis alle kopidukker
+(kloner), men dem med [hoved af vinyl](/images/panothercolorsrooted.jpg)
 kan jo ikke løbe fra deres mærke i nakken; selv har jeg en med blåt og
 en med grønt hår; hende med lysegrønt hår har jeg ikke længere. Jeg har
 set det foreslået, at disse dukker med kulørt hår blev lavet til en
 speciel anledning, muligvis som en påskedukke (det husker jeg ikke
 helt).
 
-Der skulle også findes en mørkhudet Ginger. [Min egen](images/blackginger_small.jpg) og de øvrige, jeg hidtil har set,
+Der skulle også findes en mørkhudet Ginger. [Min egen](/images/blackginger_small.jpg) og de øvrige, jeg hidtil har set,
 har dog alle været kloner med groft, kedeligt hår, dårlige øjne og uden
 gåmekanisme, oprindeligt solgt som souvenirs iført Hawaii-dragt.
 

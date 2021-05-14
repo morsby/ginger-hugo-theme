@@ -1,12 +1,11 @@
 ---
-date: "2017-02-28T16:35:10+01:00"
-title: "The Swedish Connection"
+date: 2017-02-28T16:35:10+01:00
+title: The Swedish Connection
 menu:
-    main:
-        identifier: 'national'
-        weight: 6
----
+  main:
+    weight: 10
 
+---
 # Ginger, Miss Rosebud and other dolls in Swedish regional costumes
 
 The Rosebud dolls were sold in large numbers to at least Denmark and
@@ -47,55 +46,34 @@ doll, marked Schildkröt 19.
 
 {{< grid >}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/100_1.jpg" 
+{{< img src="100_1.jpg" 
     caption="" 
     alt=""
-    link="http://gingerdolls.dk/images/100_1.jpg" 
+    link="100_1.jpg" 
     class="height-150" 
 \ >}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/100_2.jpg" 
+{{< img src="100_2.jpg" 
     caption="" 
-    link="http://gingerdolls.dk/images/100_2.jpg" 
+    link="100_2.jpg" 
     title=""
     class="height-150" 
     alt="" 
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/100_3.jpg" 
+{{< img src="100_3.jpg" 
     caption="" 
-    link="http://gingerdolls.dk/images/100_3.jpg" 
+    link="100_3.jpg" 
     title=""
     class="height-150" 
     alt="" 
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/100_4.jpg" 
+{{< img src="100_4.jpg" 
     caption="" 
-    link="http://gingerdolls.dk/images/100_4.jpg" 
-    title=""
-    class="height-150" 
-    alt="" 
-\ >}}
-
-{{< /grid >}}
-
-{{< grid >}}
-
-{{< img src="http://gingerdolls.dk/images/thumb/100_5.jpg" 
-    caption="" 
-    link="http://gingerdolls.dk/images/100_5.jpg" 
-    title=""
-    class="height-150" 
-    alt="" 
-\ >}}
-
-
-{{< img src="http://gingerdolls.dk/images/thumb/100_6.jpg" 
-    caption="" 
-    link="http://gingerdolls.dk/images/100_6.jpg" 
+    link="100_4.jpg" 
     title=""
     class="height-150" 
     alt="" 
@@ -105,7 +83,28 @@ doll, marked Schildkröt 19.
 
 {{< grid >}}
 
-{{< img src="http://gingerdolls.dk/images/1916.jpg" 
+{{< img src="100_5.jpg" 
+    caption="" 
+    link="100_5.jpg" 
+    title=""
+    class="height-150" 
+    alt="" 
+\ >}}
+
+
+{{< img src="100_6.jpg" 
+    caption="" 
+    link="100_6.jpg" 
+    title=""
+    class="height-150" 
+    alt="" 
+\ >}}
+
+{{< /grid >}}
+
+{{< grid >}}
+
+{{< img src="1916.jpg" 
     caption="" 
     link="" 
     title=""
@@ -114,7 +113,7 @@ doll, marked Schildkröt 19.
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/1918.jpg" 
+{{< img src="1918.jpg" 
     caption="" 
     link="" 
     title=""
@@ -126,27 +125,27 @@ doll, marked Schildkröt 19.
 
 {{< grid >}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/LeksandGingerBackview.jpg" 
+{{< img src="LeksandGingerBackview.jpg" 
     caption="" 
-    link="http://gingerdolls.dk/images/LeksandGingerBackview.jpg" 
+    link="LeksandGingerBackview.jpg" 
     title=""
     class="height-150" 
     alt="" 
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/LeksandGingerBoxend.jpg" 
+{{< img src="LeksandGingerBoxend.jpg" 
     caption="" 
-    link="http://gingerdolls.dk/images/LeksandGingerBoxend.jpg" 
+    link="LeksandGingerBoxend.jpg" 
     title=""
     class="height-150" 
     alt="" 
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/LeksandGingerSnap.jpg" 
+{{< img src="LeksandGingerSnap.jpg" 
     caption="" 
-    link="http://gingerdolls.dk/images/LeksandGingerSnap.jpg" 
+    link="LeksandGingerSnap.jpg" 
     title=""
     class="height-150" 
     alt="" 
@@ -169,20 +168,20 @@ The Swedish Leksand outfit
 
 {{% /tekst %}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/LeksandGinger.jpg" 
+{{< img src="LeksandGinger.jpg" 
     caption="Front" 
     gallery="LeksandGinger"
-    link="http://gingerdolls.dk/images/LeksandGinger.jpg" 
+    link="LeksandGinger.jpg" 
     title=""
     class="klik height-250" 
     alt="Front" 
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/LeksandGinger2.jpg" 
+{{< img src="LeksandGinger2.jpg" 
     caption="Back" 
     gallery="LeksandGinger"
-    link="http://gingerdolls.dk/images/LeksandGinger2.jpg" 
+    link="LeksandGinger2.jpg" 
     title=""
     class="klik height-250" 
     alt="Back" 
@@ -198,20 +197,20 @@ The Swedish Leksand outfit
 My other Swedish regional outfit from Rättvik
 {{% /tekst %}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/raettvikginger1a.jpg" 
+{{< img src="raettvikginger1a.jpg" 
     caption="Front" 
     gallery="Raettvik"
-    link="http://gingerdolls.dk/images/raettvikginger1a.jpg" 
+    link="raettvikginger1a.jpg" 
     title=""
     class="height-250 klik" 
     alt="Front" 
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/raettvikginger1b.jpg" 
+{{< img src="raettvikginger1b.jpg" 
     caption="Back"
     gallery="Raettvik" 
-    link="http://gingerdolls.dk/images/raettvikginger1b.jpg" 
+    link="raettvikginger1b.jpg" 
     title=""
     class="klik height-250" 
     alt="Back" 
@@ -228,9 +227,9 @@ I also managed to get hold of the Smaaland outfit. Mine was a bit different from
 
 {{% /tekst %}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/smaalandginger1_1.jpg" 
+{{< img src="smaalandginger1_1.jpg" 
     caption="Back" 
-    link="http://gingerdolls.dk/images/smaalandginger1_1.jpg" 
+    link="smaalandginger1_1.jpg" 
     gallery="Smaaland"
     title=""
     class="klik height-250" 
@@ -238,9 +237,9 @@ I also managed to get hold of the Smaaland outfit. Mine was a bit different from
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/smaalandginger1_2.jpg" 
+{{< img src="smaalandginger1_2.jpg" 
     caption="Back" 
-    link="http://gingerdolls.dk/images/smaalandginger1_2.jpg" 
+    link="smaalandginger1_2.jpg" 
     gallery="Smaaland"
     title=""
     class="klik height-250" 
@@ -253,9 +252,9 @@ I also managed to get hold of the Smaaland outfit. Mine was a bit different from
 
 But another doll has since taken her place, the Vingåker Ginger. Her outfit is a newer version of the JW dress below, the blouse no longer has its fine collar. This outfit is also missing the woollen string used as closure for the vest.
 
-{{< img src="http://gingerdolls.dk/images/thumb/vingaakerginger.jpg" 
+{{< img src="vingaakerginger.jpg" 
     caption="Front" 
-    link="http://gingerdolls.dk/images/vingaakerginger.jpg" 
+    link="vingaakerginger.jpg" 
     gallery=""
     title=""
     class="klik height-250" 
@@ -266,9 +265,9 @@ This is the German Schildkröt doll dressed by JW in a Vingåker regional outfit
 
 {{< grid >}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/vingaaker.jpg" 
+{{< img src="vingaaker.jpg" 
     caption="Front" 
-    link="http://gingerdolls.dk/images/vingaaker.jpg" 
+    link="vingaaker.jpg" 
     gallery="Vingaaker"
     title=""
     class="klik height-250" 
@@ -276,9 +275,9 @@ This is the German Schildkröt doll dressed by JW in a Vingåker regional outfit
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/vingaaker2.jpg" 
+{{< img src="vingaaker2.jpg" 
     caption="Back" 
-    link="http://gingerdolls.dk/images/vingaaker2.jpg" 
+    link="vingaaker2.jpg" 
     gallery="Vingaaker"
     title=""
     class="klik height-250" 
@@ -291,9 +290,9 @@ I bought an English Roddy doll - and a boy at that - in a Swedish national costu
 
 {{< grid >}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/roddy1.jpg" 
+{{< img src="roddy1.jpg" 
     caption="Front" 
-    link="http://gingerdolls.dk/images/roddy1.jpg" 
+    link="roddy1.jpg" 
     gallery="Roddy"
     title=""
     class="klik height-250" 
@@ -301,9 +300,9 @@ I bought an English Roddy doll - and a boy at that - in a Swedish national costu
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/roddy1a.jpg" 
+{{< img src="roddy1a.jpg" 
     caption="Back" 
-    link="http://gingerdolls.dk/images/roddy1a.jpg" 
+    link="roddy1a.jpg" 
     gallery="Roddy"
     title=""
     class="klik height-250" 
@@ -317,9 +316,9 @@ One more Roddy doll, a girl dressed in a J.W. outfit from the region of Skåne
 
 {{< grid >}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/roddy_skaane.jpg" 
+{{< img src="roddy_skaane.jpg" 
     caption="Front" 
-    link="http://gingerdolls.dk/images/roddy_skaane.jpg" 
+    link="roddy_skaane.jpg" 
     gallery="RoddySkaane"
     title=""
     class="klik height-250" 
@@ -327,9 +326,9 @@ One more Roddy doll, a girl dressed in a J.W. outfit from the region of Skåne
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/roddy_skaane3.jpg" 
+{{< img src="roddy_skaane3.jpg" 
     caption="Side" 
-    link="http://gingerdolls.dk/images/roddy_skaane3.jpg" 
+    link="roddy_skaane3.jpg" 
     gallery="RoddySkaane"
     title=""
     class="klik height-250" 
@@ -342,9 +341,9 @@ Another Roddy girl, in her Leksand outfit
 
 {{< grid >}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/roddy_leksand1a.jpg" 
+{{< img src="roddy_leksand1a.jpg" 
     caption="Front" 
-    link="http://gingerdolls.dk/images/roddy_leksand1a.jpg" 
+    link="roddy_leksand1a.jpg" 
     gallery="Leksand"
     title=""
     class="klik height-250"  
@@ -352,9 +351,9 @@ Another Roddy girl, in her Leksand outfit
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/roddy_leksand1b.jpg" 
+{{< img src="roddy_leksand1b.jpg" 
     caption="Back" 
-    link="http://gingerdolls.dk/images/roddy_leksand1b.jpg" 
+    link="roddy_leksand1b.jpg" 
     gallery="Leksand"
     title=""
     class="klik height-250" 
@@ -366,4 +365,3 @@ Another Roddy girl, in her Leksand outfit
 More international outfits, primarily Danish ones, can be seen on [this page](national2), and a few British ones on [my page with English dolls](engelske).
 
 Opdateret d. 30.04.2016
-

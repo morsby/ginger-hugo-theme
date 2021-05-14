@@ -1,12 +1,11 @@
 ---
-date: "2017-02-28T16:35:10+01:00"
-title: "Peggy"
-menu: 
-    main:
-        parent: 'national'
-        weight: 2
----
+date: 2017-02-28T16:35:10+01:00
+title: Peggy
+menu:
+  main:
+    weight: 13
 
+---
 # PEGGY - DUKKEN FRA NK
 
 På svenske Tradera ser man ofte en dukke på størrelse med Ginger
@@ -26,10 +25,10 @@ fra barndommen har jeg selvfølgelig også stadig. Billeder nedenfor.
   
   
 
-{{< img src="images/Peggy/trykknapper.jpg" 
+{{< img src="Peggy/trykknapper.jpg" 
     caption="Trykknapperne i Gingers og Peggys tøj ligner hinanden en del, hvilket kan gøre det svært i farten at se forskel på dem." 
     alt="trykknapper" 
-    link="images/Peggy/trykknapper.jpg" 
+    link="Peggy/trykknapper.jpg" 
     class="height-200 klik" 
     gallery=""
 \ >}}
@@ -38,172 +37,172 @@ fra barndommen har jeg selvfølgelig også stadig. Billeder nedenfor.
 De to kjoler fra min barndom
 {{< grid >}}
 
-{{< img src="images/thumb/peggy1.jpg" 
+{{< img src="peggy1.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/peggy1.jpg" 
+    link="Peggy/peggy1.jpg" 
     class="height-250 klik" 
     gallery=""
 \ >}}
 
-{{< img src="images/thumb/peggy12.jpg" 
+{{< img src="peggy12.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/peggy12.jpg" 
+    link="Peggy/peggy12.jpg" 
     class="height-250 klik" 
     gallery=""
 \ >}}
-{{< img src="images/thumb/peggy4.jpg" 
+{{< img src="peggy4.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/peggy4.jpg" 
+    link="Peggy/peggy4.jpg" 
     class="height-250 klik" 
     gallery="Peggy"
 \ >}}
 
-{{< img src="images/thumb/peggy11.jpg" 
+{{< img src="peggy11.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/peggy11.jpg" 
+    link="Peggy/peggy11.jpg" 
     class="height-250 klik" 
     gallery="Peggy"
 \ >}}
 
-{{< img src="images/thumb/peggy2.jpg" 
+{{< img src="peggy2.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/peggy2.jpg" 
+    link="Peggy/peggy2.jpg" 
     class="height-250 klik" 
     gallery="Peggy"
 \ >}}
-{{< img src="images/thumb/peggy3.jpg" 
+{{< img src="peggy3.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/peggy3.jpg" 
+    link="Peggy/peggy3.jpg" 
     class="height-250 klik" 
     gallery="Peggy"
 \ >}}
-{{< img src="images/thumb/peggy5.jpg" 
+{{< img src="peggy5.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/peggy5.jpg" 
-    class="height-250 klik" 
-    gallery="Peggy"
-\ >}}
-
-{{< img src="images/thumb/peggy6.jpg" 
-    caption="" 
-    alt="Peggy" 
-    link="images/Peggy/peggy6.jpg" 
-    class="height-250 klik" 
-    gallery="Peggy"
-\ >}}
-{{< img src="images/thumb/peggy7.jpg" 
-    caption="" 
-    alt="Peggy" 
-    link="images/Peggy/peggy7.jpg" 
-    class="height-250 klik" 
-    gallery="Peggy"
-\ >}}
-{{< img src="images/thumb/peggy8.jpg" 
-    caption="" 
-    alt="Peggy" 
-    link="images/Peggy/peggy8.jpg" 
+    link="Peggy/peggy5.jpg" 
     class="height-250 klik" 
     gallery="Peggy"
 \ >}}
 
-
-{{< img src="images/thumb/peggy9.jpg" 
+{{< img src="peggy6.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/peggy9.jpg" 
+    link="Peggy/peggy6.jpg" 
     class="height-250 klik" 
     gallery="Peggy"
 \ >}}
-{{< img src="images/thumb/peggy10.jpg" 
+{{< img src="peggy7.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/peggy10.jpg" 
+    link="Peggy/peggy7.jpg" 
     class="height-250 klik" 
     gallery="Peggy"
 \ >}}
-{{< img src="images/thumb/peggy13.jpg" 
+{{< img src="peggy8.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/peggy13.jpg" 
-    class="height-250 klik" 
-    gallery="Peggy"
-\ >}}
-{{< img src="images/thumb/peggy14.jpg" 
-    caption="" 
-    alt="Peggy" 
-    link="images/Peggy/peggy14.jpg" 
-    class="height-250 klik" 
-    gallery="Peggy"
-\ >}}
-{{< img src="images/thumb/peggy15.jpg" 
-    caption="" 
-    alt="Peggy" 
-    link="images/Peggy/peggy15.jpg" 
-    class="height-250 klik" 
-    gallery="Peggy"
-\ >}}
-{{< img src="images/thumb/peggy17a.jpg" 
-    caption="" 
-    alt="Peggy" 
-    link="images/Peggy/peggy17a.jpg" 
-    class="height-250 klik" 
-    gallery="Peggy"
-\ >}}
-{{< img src="images/thumb/peggy17b.jpg" 
-    caption="" 
-    alt="Peggy" 
-    link="images/Peggy/peggy17b.jpg" 
+    link="Peggy/peggy8.jpg" 
     class="height-250 klik" 
     gallery="Peggy"
 \ >}}
 
-{{< img src="images/thumb/peggy16.jpg" 
+
+{{< img src="peggy9.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/peggy16.jpg" 
+    link="Peggy/peggy9.jpg" 
+    class="height-250 klik" 
+    gallery="Peggy"
+\ >}}
+{{< img src="peggy10.jpg" 
+    caption="" 
+    alt="Peggy" 
+    link="Peggy/peggy10.jpg" 
+    class="height-250 klik" 
+    gallery="Peggy"
+\ >}}
+{{< img src="peggy13.jpg" 
+    caption="" 
+    alt="Peggy" 
+    link="Peggy/peggy13.jpg" 
+    class="height-250 klik" 
+    gallery="Peggy"
+\ >}}
+{{< img src="peggy14.jpg" 
+    caption="" 
+    alt="Peggy" 
+    link="Peggy/peggy14.jpg" 
+    class="height-250 klik" 
+    gallery="Peggy"
+\ >}}
+{{< img src="peggy15.jpg" 
+    caption="" 
+    alt="Peggy" 
+    link="Peggy/peggy15.jpg" 
+    class="height-250 klik" 
+    gallery="Peggy"
+\ >}}
+{{< img src="peggy17a.jpg" 
+    caption="" 
+    alt="Peggy" 
+    link="Peggy/peggy17a.jpg" 
+    class="height-250 klik" 
+    gallery="Peggy"
+\ >}}
+{{< img src="peggy17b.jpg" 
+    caption="" 
+    alt="Peggy" 
+    link="Peggy/peggy17b.jpg" 
     class="height-250 klik" 
     gallery="Peggy"
 \ >}}
 
-{{< img src="images/thumb/peggy18.jpg" 
+{{< img src="peggy16.jpg" 
+    caption="" 
+    alt="Peggy" 
+    link="Peggy/peggy16.jpg" 
+    class="height-250 klik" 
+    gallery="Peggy"
+\ >}}
+
+{{< img src="peggy18.jpg" 
     caption="Denne mørkeblå kjole er vist del af en sygeplejeuniform<hr> This dark blue dress is probably part of a nurse's uniform" 
     alt="Peggy" 
-    link="images/Peggy/peggy18.jpg" 
+    link="Peggy/peggy18.jpg" 
     class="height-250 klik" 
     gallery="Peggy"
 \ >}}
-{{< img src="images/thumb/peggy19.jpg" 
+{{< img src="peggy19.jpg" 
     caption="Brudekjolen havde jeg som barn, men den gik i stykker - nu har jeg fundet den i flot stand. <hr> This bridal outfit I had as a child, but it went to pieces. Now I found another one, in very nice shape." 
     alt="Peggy" 
-    link="images/Peggy/peggy19.jpg" 
+    link="Peggy/peggy19.jpg" 
     class="height-250 klik" 
     gallery="Peggy"
 \ >}}
-{{< img src="images/thumb/peggy20.jpg" 
+{{< img src="peggy20.jpg" 
     caption="Der mangler sandsynligvis en bluse til dette sæt. <hr> A blouse for this outfit is probably missing." 
     alt="Peggy" 
-    link="images/Peggy/peggy20.jpg" 
+    link="Peggy/peggy20.jpg" 
     class="height-250 klik" 
     gallery="Peggy"
 \ >}}
-{{< img src="images/thumb/tradera_pants.jpg" 
+{{< img src="tradera_pants.jpg" 
     caption="En samling trusser, hvoraf nogle kan tænkes at være Peggys <hr> A lot of panties, some of which might be for Peggy" 
     alt="Peggy" 
-    link="images/Peggy/tradera_pants.jpg" 
+    link="Peggy/tradera_pants.jpg" 
     class="height-250 klik" 
     gallery="Peggy"
 \ >}}
-{{< img src="images/thumb/tradera7.jpg" 
+{{< img src="tradera7.jpg" 
     caption="Blusen er måske Peggys? Kjolen ligner meget den, jeg fik [min første NK-Ginger](ginger114) i, så måske det faktisk er en sen Ginger-kjole, som bare ikke er dokumenteret i den sidste brochure, vi kender.  <hr> The blouse might be Peggy's? The dress is almost identical to the one [my first NK Ginger](ginger114) is dressed in, so maybe it is in fact a late Ginger dress not documented in the last brochure we know." 
     alt="Peggy" 
-    link="images/Peggy/tradera_7.jpg" 
+    link="Peggy/tradera_7.jpg" 
     class="height-250 klik" 
     gallery="Peggy"
 \ >}}
@@ -224,45 +223,45 @@ Ginger and Peggy. Without closure and/or tag these clothes are
 impossible to identify.
 {{< grid >}}
 
-{{< img src="images/thumb/tradera3.jpg" 
+{{< img src="tradera3.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/tradera3.jpg" 
+    link="Peggy/tradera3.jpg" 
     class="height-250 klik" 
     gallery="notpeggy"
 \ >}}
-{{< img src="images/thumb/tradera5.jpg" 
+{{< img src="tradera5.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/tradera5.jpg" 
+    link="Peggy/tradera5.jpg" 
     class="height-250 klik" 
     gallery="notpeggy"
 \ >}}
-{{< img src="images/thumb/tradera6.jpg" 
+{{< img src="tradera6.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/tradera6.jpg" 
+    link="Peggy/tradera6.jpg" 
     class="height-250 klik" 
     gallery="notpeggy"
 \ >}}
-{{< img src="images/thumb/tradera8.jpg" 
+{{< img src="tradera8.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/tradera8.jpg" 
+    link="Peggy/tradera8.jpg" 
     class="height-250 klik" 
     gallery="notpeggy"
 \ >}}
-{{< img src="images/thumb/tradera9.jpg" 
+{{< img src="tradera9.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/tradera9.jpg" 
+    link="Peggy/tradera9.jpg" 
     class="height-250 klik" 
     gallery="notpeggy"
 \ >}}
-{{< img src="images/thumb/tradera10.jpg" 
+{{< img src="tradera10.jpg" 
     caption="" 
     alt="Peggy" 
-    link="images/Peggy/tradera10.jpg" 
+    link="Peggy/tradera10.jpg" 
     class="height-250 klik" 
     gallery="notpeggy"
 \ >}}

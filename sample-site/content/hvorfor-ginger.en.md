@@ -1,11 +1,11 @@
 ---
-date: "2017-03-16T16:56:51+01:00"
-title: "Why Ginger?"
+date: 2017-03-16T16:56:51+01:00
+title: Why Ginger?
 menu:
-    main:
-        weight: 3
----
+  main:
+    weight: 6
 
+---
 # The Ginger dolls and me
 
 I have been crazy about dolls most of my life, my childhood dolls were many: composite, rubber, celluloid, hard plastic and vinyl dolls. In the 1950'es and 1960'es, dolls were often still a domestic produce, so mine were mostly Danish dolls, but I also had the small English Rosebud Thumb Suck baby and the similar German small Schildkröt baby, one pale, the other dark, a French Bella doll and a large fashion doll also of foreign, now forgotten origin (but no Barbie). And then I had a couple of - for a Danish girl - unusual dolls: two Ginger dolls!
@@ -16,7 +16,7 @@ I grew up, most of my toys were given away, but after about 30 years one Ginger 
 
 And this is my childhood Ginger, to the right.
 
-{{< img src="http://gingerdolls.dk/images/3gingers.jpg" 
+{{< img src="3gingers.jpg" 
     caption="3 Ginger dukker og Mio, en af mine katte" 
     link="" 
     title="" 

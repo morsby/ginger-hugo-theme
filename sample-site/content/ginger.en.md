@@ -1,11 +1,11 @@
 ---
-date: "2017-02-28T16:35:10+01:00"
-title: "About Ginger"
+date: 2017-02-28T16:35:10+01:00
+title: About Ginger
 menu:
-    main:
-        weight: 5
----
+  main:
+    weight: 8
 
+---
 # GINGER
 
 {{% center %}}
@@ -45,28 +45,28 @@ this wig is a bit the worse for wear and probably is original, so it
 would seem that Cosmopolitan switched to the Saran wigs while the dolls
 were still the PL type.
 
-The wigs came in two styles: [Roll/flip](images/panflip.jpg) and
-[braids](images/panbraids.jpg) (please note the picture on the right
+The wigs came in two styles: [Roll/flip](/images/panflip.jpg) and
+[braids](/images/panbraids.jpg) (please note the picture on the right
 shows a wig that is NOT Ginger's - just to show how characteristic
 Ginger's braids are). The old catalogs list three colours: Platinum
-blonde, honey blonde and [brunette](images/1211_1958&1959NK_2.jpg). I
-have seen no platinum blonde, but I did see [very light blondes and darker blondes apart from the in-between honey blondes](images/panblondewig.jpg).
+blonde, honey blonde and [brunette](/images/1211_1958&1959NK_2.jpg). I
+have seen no platinum blonde, but I did see [very light blondes and darker blondes apart from the in-between honey blondes](/images/panblondewig.jpg).
 
-There was also two rooted hair styles: A [short bob](images/1253_1958NK%20(2).jpg) and a
-[ponytail](images/panponytail.jpg) high on the head. Again the colours
-are said to be [platinum blonde](images/554&555_1957US_2b.jpg), honey
-blonde and [brunette](images/panbrunetterooted.jpg). And again I have
-seen [more blonde shades than the honey blonde](images/panblonderooted.jpg) - apart from the true platinum
+There was also two rooted hair styles: A [short bob](/images/1253_1958NK%20(2).jpg) and a
+[ponytail](/images/panponytail.jpg) high on the head. Again the colours
+are said to be [platinum blonde](/images/554&555_1957US_2b.jpg), honey
+blonde and [brunette](/images/panbrunetterooted.jpg). And again I have
+seen [more blonde shades than the honey blonde](/images/panblonderooted.jpg) - apart from the true platinum
 blonde.
 
 Ginger is said to have come with pastel coloured hair as well. The
-[wigged ones](images/panothercolorswig.jpg) I have seen all seem to be
+[wigged ones](/images/panothercolorswig.jpg) I have seen all seem to be
 clones, but I do have two
-[vinyl-headed](images/panothercolorsrooted.jpg) ones, one with green,
+[vinyl-headed](/images/panothercolorsrooted.jpg) ones, one with green,
 the other with blue hair, the third one with a light green ponytail I no
 longer own. I never yet saw the one with pink hair.
 
-It is also said that there was a Ginger with dark skin. [My own doll](images/blackginger_small.jpg) and all others I have so far seen
+It is also said that there was a Ginger with dark skin. [My own doll](/images/blackginger_small.jpg) and all others I have so far seen
 are, however, clones. Their hair is extremely wiry, their eyes are not
 very well made, and they are strung, not walkers.
 

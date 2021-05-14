@@ -1,12 +1,11 @@
 ---
-date: "2017-02-28T16:35:10+01:00"
-title: "Ginger i Sverige"
+date: 2017-02-28T16:35:10+01:00
+title: Ginger i Sverige
 menu:
-    main:
-        identifier: 'national'
-        weight: 6
----
+  main:
+    weight: 9
 
+---
 # Ginger, Miss Rosebud og andre dukker i svenske egnsdragter
 
 Ligesom Rosebud-dukkerne blev solgt uden tøj til i hvert fald Danmark og
@@ -44,55 +43,34 @@ længere nede på siden - her er dukken en Skildpadde-dukke (Schildkröt
 
 {{< grid >}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/100_1.jpg" 
+{{< img src="100_1.jpg" 
     caption="" 
     alt="" 
-    link="http://gingerdolls.dk/images/100_1.jpg" 
+    link="100_1.jpg" 
     class="height-150" 
 \ >}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/100_2.jpg" 
+{{< img src="100_2.jpg" 
     caption="" 
-    link="http://gingerdolls.dk/images/100_2.jpg" 
+    link="100_2.jpg" 
     title=""
     class="height-150" 
     alt="" 
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/100_3.jpg" 
+{{< img src="100_3.jpg" 
     caption="" 
-    link="http://gingerdolls.dk/images/100_3.jpg" 
+    link="100_3.jpg" 
     title=""
     class="height-150" 
     alt="" 
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/100_4.jpg" 
+{{< img src="100_4.jpg" 
     caption="" 
-    link="http://gingerdolls.dk/images/100_4.jpg" 
-    title=""
-    class="height-150" 
-    alt="" 
-\ >}}
-
-{{< /grid >}}
-
-{{< grid >}}
-
-{{< img src="http://gingerdolls.dk/images/thumb/100_5.jpg" 
-    caption="" 
-    link="http://gingerdolls.dk/images/100_5.jpg" 
-    title=""
-    class="height-150" 
-    alt="" 
-\ >}}
-
-
-{{< img src="http://gingerdolls.dk/images/thumb/100_6.jpg" 
-    caption="" 
-    link="http://gingerdolls.dk/images/100_6.jpg" 
+    link="100_4.jpg" 
     title=""
     class="height-150" 
     alt="" 
@@ -102,7 +80,28 @@ længere nede på siden - her er dukken en Skildpadde-dukke (Schildkröt
 
 {{< grid >}}
 
-{{< img src="http://gingerdolls.dk/images/1916.jpg" 
+{{< img src="100_5.jpg" 
+    caption="" 
+    link="100_5.jpg" 
+    title=""
+    class="height-150" 
+    alt="" 
+\ >}}
+
+
+{{< img src="100_6.jpg" 
+    caption="" 
+    link="100_6.jpg" 
+    title=""
+    class="height-150" 
+    alt="" 
+\ >}}
+
+{{< /grid >}}
+
+{{< grid >}}
+
+{{< img src="1916.jpg" 
     caption="" 
     link="" 
     title=""
@@ -111,7 +110,7 @@ længere nede på siden - her er dukken en Skildpadde-dukke (Schildkröt
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/1918.jpg" 
+{{< img src="1918.jpg" 
     caption="" 
     link="" 
     title=""
@@ -123,27 +122,27 @@ længere nede på siden - her er dukken en Skildpadde-dukke (Schildkröt
 
 {{< grid >}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/LeksandGingerBackview.jpg" 
+{{< img src="LeksandGingerBackview.jpg" 
     caption="" 
-    link="http://gingerdolls.dk/images/LeksandGingerBackview.jpg" 
+    link="LeksandGingerBackview.jpg" 
     title=""
     class="height-150" 
     alt="" 
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/LeksandGingerBoxend.jpg" 
+{{< img src="LeksandGingerBoxend.jpg" 
     caption="" 
-    link="http://gingerdolls.dk/images/LeksandGingerBoxend.jpg" 
+    link="LeksandGingerBoxend.jpg" 
     title=""
     class="height-150" 
     alt="" 
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/LeksandGingerSnap.jpg" 
+{{< img src="LeksandGingerSnap.jpg" 
     caption="" 
-    link="http://gingerdolls.dk/images/LeksandGingerSnap.jpg" 
+    link="LeksandGingerSnap.jpg" 
     title=""
     class="height-150" 
     alt="" 
@@ -164,20 +163,20 @@ Den svenske Leksand-dragt
 
 {{% /tekst %}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/LeksandGinger.jpg" 
+{{< img src="LeksandGinger.jpg" 
     caption="Front" 
     gallery="LeksandGinger"
-    link="http://gingerdolls.dk/images/LeksandGinger.jpg" 
+    link="LeksandGinger.jpg" 
     title=""
     class="klik height-250" 
     alt="Front" 
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/LeksandGinger2.jpg" 
+{{< img src="LeksandGinger2.jpg" 
     caption="Back" 
     gallery="LeksandGinger"
-    link="http://gingerdolls.dk/images/LeksandGinger2.jpg" 
+    link="LeksandGinger2.jpg" 
     title=""
     class="klik height-250" 
     alt="Back" 
@@ -193,20 +192,20 @@ Den svenske Leksand-dragt
 Min anden svenske nationaldragt, Rättvik-dragten
 {{% /tekst %}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/raettvikginger1a.jpg" 
+{{< img src="raettvikginger1a.jpg" 
     caption="Front" 
     gallery="Raettvik"
-    link="http://gingerdolls.dk/images/raettvikginger1a.jpg" 
+    link="raettvikginger1a.jpg" 
     title=""
     class="height-250 klik" 
     alt="Front" 
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/raettvikginger1b.jpg" 
+{{< img src="raettvikginger1b.jpg" 
     caption="Back"
     gallery="Raettvik" 
-    link="http://gingerdolls.dk/images/raettvikginger1b.jpg" 
+    link="raettvikginger1b.jpg" 
     title=""
     class="klik height-250" 
     alt="Back" 
@@ -221,9 +220,9 @@ Min anden svenske nationaldragt, Rättvik-dragten
 I also managed to get hold of the Smaaland outfit. Mine was a bit different from the one at the top of the page, not in as nice shape, either, but all right. I have, however, sold it, because I had a very interested potential buyer, so ...
 {{% /tekst %}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/smaalandginger1_1.jpg" 
+{{< img src="smaalandginger1_1.jpg" 
     caption="Back" 
-    link="http://gingerdolls.dk/images/smaalandginger1_1.jpg" 
+    link="smaalandginger1_1.jpg" 
     gallery="Smaaland"
     title=""
     class="klik height-250" 
@@ -231,9 +230,9 @@ I also managed to get hold of the Smaaland outfit. Mine was a bit different from
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/smaalandginger1_2.jpg" 
+{{< img src="smaalandginger1_2.jpg" 
     caption="Back" 
-    link="http://gingerdolls.dk/images/smaalandginger1_2.jpg" 
+    link="smaalandginger1_2.jpg" 
     gallery="Smaaland"
     title=""
     class="klik height-250" 
@@ -245,9 +244,9 @@ I also managed to get hold of the Smaaland outfit. Mine was a bit different from
 
 {{< grid >}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/vingaakerginger.jpg" 
+{{< img src="vingaakerginger.jpg" 
     caption="Front" 
-    link="http://gingerdolls.dk/images/vingaakerginger.jpg" 
+    link="vingaakerginger.jpg" 
     gallery=""
     title=""
     class="klik height-250" 
@@ -265,9 +264,9 @@ Til gengæld har jeg siden fundet denne Vingåker-Ginger, hvis dragt er en sener
 Dette er en tysk Schildkröt-dukke (mrk. 19) i nationaldragt fra Vingåker, fabrikeret af JW
 {{% /tekst %}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/vingaaker.jpg" 
+{{< img src="vingaaker.jpg" 
     caption="Front" 
-    link="http://gingerdolls.dk/images/vingaaker.jpg" 
+    link="vingaaker.jpg" 
     gallery="Vingaaker"
     title=""
     class="klik height-250" 
@@ -275,9 +274,9 @@ Dette er en tysk Schildkröt-dukke (mrk. 19) i nationaldragt fra Vingåker, fabr
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/vingaaker2.jpg" 
+{{< img src="vingaaker2.jpg" 
     caption="Back" 
-    link="http://gingerdolls.dk/images/vingaaker2.jpg" 
+    link="vingaaker2.jpg" 
     gallery="Vingaaker"
     title=""
     class="klik height-250" 
@@ -290,9 +289,9 @@ Jeg har også fået en engelsk Roddy-dukke i svensk nationaldragt - en dreng den
 
 {{< grid >}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/roddy1.jpg" 
+{{< img src="roddy1.jpg" 
     caption="Front" 
-    link="http://gingerdolls.dk/images/roddy1.jpg" 
+    link="roddy1.jpg" 
     gallery="Roddy"
     title=""
     class="klik height-250" 
@@ -300,9 +299,9 @@ Jeg har også fået en engelsk Roddy-dukke i svensk nationaldragt - en dreng den
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/roddy1a.jpg" 
+{{< img src="roddy1a.jpg" 
     caption="Back" 
-    link="http://gingerdolls.dk/images/roddy1a.jpg" 
+    link="roddy1a.jpg" 
     gallery="Roddy"
     title=""
     class="klik height-250" 
@@ -317,9 +316,9 @@ Igen en Roddy-dukke, denne gang en pige; hun har J.W. dragt på, fra Skåne. Et 
 
 {{< grid >}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/roddy_skaane.jpg" 
+{{< img src="roddy_skaane.jpg" 
     caption="Front" 
-    link="http://gingerdolls.dk/images/roddy_skaane.jpg" 
+    link="roddy_skaane.jpg" 
     gallery="RoddySkaane"
     title=""
     class="klik height-250" 
@@ -327,9 +326,9 @@ Igen en Roddy-dukke, denne gang en pige; hun har J.W. dragt på, fra Skåne. Et 
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/roddy_skaane3.jpg" 
+{{< img src="roddy_skaane3.jpg" 
     caption="Side" 
-    link="http://gingerdolls.dk/images/roddy_skaane3.jpg" 
+    link="roddy_skaane3.jpg" 
     gallery="RoddySkaane"
     title=""
     class="klik height-250" 
@@ -342,9 +341,9 @@ Endnu en Roddy-pige, i Leksand-dragt
 
 {{< grid >}}
 
-{{< img src="http://gingerdolls.dk/images/thumb/roddy_leksand1a.jpg" 
+{{< img src="roddy_leksand1a.jpg" 
     caption="Front" 
-    link="http://gingerdolls.dk/images/roddy_leksand1a.jpg" 
+    link="roddy_leksand1a.jpg" 
     gallery="Leksand"
     title=""
     class="klik height-250"  
@@ -352,9 +351,9 @@ Endnu en Roddy-pige, i Leksand-dragt
 \ >}}
 
 
-{{< img src="http://gingerdolls.dk/images/thumb/roddy_leksand1b.jpg" 
+{{< img src="roddy_leksand1b.jpg" 
     caption="Back" 
-    link="http://gingerdolls.dk/images/roddy_leksand1b.jpg" 
+    link="roddy_leksand1b.jpg" 
     gallery="Leksand"
     title=""
     class="klik height-250" 
@@ -366,4 +365,3 @@ Endnu en Roddy-pige, i Leksand-dragt
 Der er flere nationaldragter, primært danske, at se på [denne side](national2), og et par britiske på [min side med engelske dukker](engelske).
 
 Opdateret d. 30.04.2016
-

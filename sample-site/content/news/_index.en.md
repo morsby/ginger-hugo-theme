@@ -1,11 +1,9 @@
 ---
-title: "News"
-date: 2021-05-05T21:47:09+02:00
-draft: false
+title: News
+date: 2021-05-05T21:47:09.000+02:00
 menu:
-    main: 
-        weight: 2
-        # parent: 
----
+  main:
+    weight: 4
 
+---
 News updates below.

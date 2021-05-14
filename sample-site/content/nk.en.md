@@ -1,15 +1,14 @@
 ---
-date: "2017-02-28T16:35:10+01:00"
-title: "The NK Gingers"
-menu:
-    main:
-        parent: 'national'
-        weight: 1
+date: 2017-02-28T16:35:10+01:00
+title: The NK Gingers
 aliases:
-    - /nk_gl
+- "/nk_gl"
+menu:
+  main:
+    name: NK Ginger and special NK dolls
+    weight: 12
+
 ---
-
-
 # NK OG SPECIELLE NK GINGER-DUKKER
 # NK AND SPECIAL NK GINGER DOLLS
 
@@ -160,10 +159,10 @@ my friend's doll
 
 
 
-{{< img src="images/thumb/uneedagingerboxed_a.jpg" 
+{{< img src="uneedagingerboxed_a.jpg" 
     caption="" 
     alt="Uneeda Ginge" 
-    link="images/uneedagingerboxed_a.jpg" 
+    link="uneedagingerboxed_a.jpg" 
     class="height-250 klik" 
     gallery="uneeda"
 \ >}}
@@ -172,10 +171,10 @@ my friend's doll
 
 
 
-{{< img src="images/thumb/uneedagingerboxed_b.jpg" 
+{{< img src="uneedagingerboxed_b.jpg" 
     caption="" 
     alt="Uneeda Ginge" 
-    link="images/uneedagingerboxed_b.jpg" 
+    link="uneedagingerboxed_b.jpg" 
     class="height-250 klik" 
     gallery="uneeda"
 \ >}}
@@ -184,10 +183,10 @@ my friend's doll
 
 
 
-{{< img src="images/thumb/uneedagingerboxed_c.jpg" 
+{{< img src="uneedagingerboxed_c.jpg" 
     caption="" 
     alt="Uneeda Ginge" 
-    link="images/uneedagingerboxed_c.jpg" 
+    link="uneedagingerboxed_c.jpg" 
     class="height-250 klik" 
     gallery="uneeda"
 \ >}}
@@ -196,10 +195,10 @@ my friend's doll
 
 
 
-{{< img src="images/thumb/uneedagingerboxed_d.jpg" 
+{{< img src="uneedagingerboxed_d.jpg" 
     caption="" 
     alt="Uneeda Ginge" 
-    link="images/uneedagingerboxed_d.jpg" 
+    link="uneedagingerboxed_d.jpg" 
     class="height-250 klik" 
     gallery="uneeda"
 \ >}}
@@ -221,7 +220,7 @@ picture:
 
 
 
-{{< img src="images/thumb/uneedaginger1a.jpg" 
+{{< img src="uneedaginger1a.jpg" 
     caption="" 
     alt="Uneeda" 
     link="ginger114" 
@@ -239,7 +238,7 @@ My doll type #2 can be seen by clicking on this picture:
 
 
 
-{{< img src="images/thumb/111_1961NK.jpg" 
+{{< img src="111_1961NK.jpg" 
     caption="" 
     alt="#2" 
     link="ginger126" 
@@ -262,10 +261,10 @@ And here are the two variations of the NK Ginger side by side:
 
 
 
-{{< img src="images/thumb/nkgingers_front.jpg" 
+{{< img src="nkgingers_front.jpg" 
     caption="" 
     alt="NK Gingers" 
-    link="images/nkgingers_front.jpg" 
+    link="nkgingers_front.jpg" 
     class="height-250 klik" 
     gallery="nk"
 \ >}}
@@ -274,10 +273,10 @@ And here are the two variations of the NK Ginger side by side:
 
 
 
-{{< img src="images/thumb/nkgingers_neck.jpg" 
+{{< img src="nkgingers_neck.jpg" 
     caption="" 
     alt="NK Gingers" 
-    link="images/nkgingers_neck.jpg" 
+    link="nkgingers_neck.jpg" 
     class="height-250 klik" 
     gallery="nk"
 \ >}}

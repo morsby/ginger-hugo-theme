@@ -1,24 +1,23 @@
 ---
-date: "2017-02-28T16:35:10+01:00"
-title: "The NK Gingers"
-menu:
-    main:
-        parent: 'national'
-        weight: 1
+date: 2017-02-28T16:35:10.000+01:00
+title: The NK Gingers
 aliases:
-    - /nk_gl
+- "/nk_gl"
+menu:
+  main:
+    name: NK og specielle Gingere
+    weight: 11
+
 ---
-
-
 # NK OG SPECIELLE NK GINGER-DUKKER
+
 # NK AND SPECIAL NK GINGER DOLLS
 
-## Denne side er bevist ikke oversat
+## Denne side er bevidst ikke oversat
 
 {{% center %}}
-*Billeder nederst på siden/Pictures at the bottom of the page*
+_Billeder nederst på siden/Pictures at the bottom of the page_
 {{% /center %}}
-
 
 Har man haft lejlighed til at se det sidste Ginger-katalog udgivet i
 Sverige (1961), har man måske undret sig over, at dukkerne ser lidt
@@ -49,8 +48,8 @@ en Ginger- som en Virga-klon.
 
 Der er med andre ord i NK solgt 2 forskellige sene Ginger-dukker, som
 man ikke kender fra dukkens hjemland USA. Hvad er den rigtige historie
-bag? Det mysterium får vi nok aldrig opklaret. *Men der er billeder af
-dukkerne længere nede på siden.*
+bag? Det mysterium får vi nok aldrig opklaret. _Men der er billeder af
+dukkerne længere nede på siden._
 
 {{< spacer >}}
 
@@ -81,10 +80,9 @@ siden uden mærke og med anden tryklås. De senere produceret af hvem?
 
 Der er stadig meget at finde ud af for hvem, der har lyst.
 
-------------------------------------------------------------------------
+***
 
 {{< eng >}}
-
 
 Anybody who has had the chance to study the last of the Swedish NK
 Ginger catalogs (from 1961) may have wondered that the dolls look a bit
@@ -114,8 +112,8 @@ who was found as a Virga clone or a Ginger clone.
 
 So NK marketed two different Ginger types not found in the US! It would
 be very interesting to learn the hows and whys and whos of all this, but
-I don't suppose we ever shall. *Pictures of these dolls are posted at
-the bottom of this page.*
+I don't suppose we ever shall. _Pictures of these dolls are posted at
+the bottom of this page._
 
 {{< spacer >}}
 
@@ -150,20 +148,19 @@ wonder who made these dresses?
 Sådan ser den først fundne dukke, Uneeda-typen, ud; dette er min vens
 dukke
 
-------------------------------------------------------------------------
+***
 
 This is what the doll first found, the Uneeda type, looks like; this is
 my friend's doll
-
 
 {{< grid >}}
 
 
 
-{{< img src="images/thumb/uneedagingerboxed_a.jpg" 
+{{< img src="uneedagingerboxed_a.jpg" 
     caption="" 
     alt="Uneeda Ginge" 
-    link="images/uneedagingerboxed_a.jpg" 
+    link="uneedagingerboxed_a.jpg" 
     class="height-250 klik" 
     gallery="uneeda"
 \ >}}
@@ -172,10 +169,10 @@ my friend's doll
 
 
 
-{{< img src="images/thumb/uneedagingerboxed_b.jpg" 
+{{< img src="uneedagingerboxed_b.jpg" 
     caption="" 
     alt="Uneeda Ginge" 
-    link="images/uneedagingerboxed_b.jpg" 
+    link="uneedagingerboxed_b.jpg" 
     class="height-250 klik" 
     gallery="uneeda"
 \ >}}
@@ -184,10 +181,10 @@ my friend's doll
 
 
 
-{{< img src="images/thumb/uneedagingerboxed_c.jpg" 
+{{< img src="uneedagingerboxed_c.jpg" 
     caption="" 
     alt="Uneeda Ginge" 
-    link="images/uneedagingerboxed_c.jpg" 
+    link="uneedagingerboxed_c.jpg" 
     class="height-250 klik" 
     gallery="uneeda"
 \ >}}
@@ -196,10 +193,10 @@ my friend's doll
 
 
 
-{{< img src="images/thumb/uneedagingerboxed_d.jpg" 
+{{< img src="uneedagingerboxed_d.jpg" 
     caption="" 
     alt="Uneeda Ginge" 
-    link="images/uneedagingerboxed_d.jpg" 
+    link="uneedagingerboxed_d.jpg" 
     class="height-250 klik" 
     gallery="uneeda"
 \ >}}
@@ -208,20 +205,19 @@ my friend's doll
 
 {{< /grid >}}
 
-
 {{< spacer >}}
 
 Min egen første dukke, som er samme type, ses ved at klikke på
 billedet:
 
----
+***
 
 My own first doll (same type) can be seen by clicking on this
 picture:
 
 
 
-{{< img src="images/thumb/uneedaginger1a.jpg" 
+{{< img src="uneedaginger1a.jpg" 
     caption="" 
     alt="Uneeda" 
     link="ginger114" 
@@ -233,13 +229,13 @@ picture:
 
 Min dukke af type nr. 2 ses ved at klikke på dette billede
 
----
+***
 
 My doll type #2 can be seen by clicking on this picture:
 
 
 
-{{< img src="images/thumb/111_1961NK.jpg" 
+{{< img src="111_1961NK.jpg" 
     caption="" 
     alt="#2" 
     link="ginger126" 
@@ -252,20 +248,18 @@ My doll type #2 can be seen by clicking on this picture:
 
 Og her er begge typer NK-Ginger side om side
 
----
+***
 
 And here are the two variations of the NK Ginger side by side:
-
-
 
 {{< grid >}}
 
 
 
-{{< img src="images/thumb/nkgingers_front.jpg" 
+{{< img src="nkgingers_front.jpg" 
     caption="" 
     alt="NK Gingers" 
-    link="images/nkgingers_front.jpg" 
+    link="nkgingers_front.jpg" 
     class="height-250 klik" 
     gallery="nk"
 \ >}}
@@ -274,10 +268,10 @@ And here are the two variations of the NK Ginger side by side:
 
 
 
-{{< img src="images/thumb/nkgingers_neck.jpg" 
+{{< img src="nkgingers_neck.jpg" 
     caption="" 
     alt="NK Gingers" 
-    link="images/nkgingers_neck.jpg" 
+    link="nkgingers_neck.jpg" 
     class="height-250 klik" 
     gallery="nk"
 \ >}}
@@ -285,6 +279,5 @@ And here are the two variations of the NK Ginger side by side:
 
 
 {{< /grid >}}
-
 
 Opdateret d. 1.3.2014
