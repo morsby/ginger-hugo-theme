@@ -41,17 +41,27 @@
     {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
         <div class="nav-subnav">
-          <div class="nav-item has-subnav">
+          <div
+            class="nav-item has-subnav {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"
+          >
             <a href="{{ .URL }}">{{ .Name }}</a>
           </div>
           <div class="nav-subnav-items">
             {{ range .Children }}
-              <a class="nav-subitem" href="{{ .URL }}">&gt; {{ .Name }}</a>
+              <a
+                class="nav-subitem {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"
+                href="{{ .URL }}"
+                >&gt; {{ .Name }}</a
+              >
             {{ end }}
           </div>
         </div>
         {{ else }}
-        <a class="nav-item" href="{{ .URL }}">{{ .Name }}</a>
+        <a
+          class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"
+          href="{{ .URL }}"
+          >{{ .Name }}</a
+        >
       {{ end }}
     {{ end }}
   </nav>
