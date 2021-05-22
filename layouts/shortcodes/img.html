@@ -1,7 +1,9 @@
 {{ $src := .Get "src" }}
-{{ $cloudinaryFn := "" }}
+{{ $singleClass := "single" }}
+{{ $cloudinaryFn := "/h_800" }}
 {{ with .Parent }}
     {{ $cloudinaryFn = "/ar_3:4,c_fill,g_auto/w_500" }}
+    {{ $singleClass = "" }}
 {{ end }}
 {{ if not (in (.Get "src") "http") }}
  {{ $src = path.Join .Site.Params.CloudinaryBaseURL $cloudinaryFn "ginger" (.Get "src") }}
@@ -28,7 +30,7 @@
 {{ end }}
 
 
-<figure {{ with "class" }} class="{{ . }}" {{ end }}>
+<figure {{ with "class" }} class="{{ . }} {{ $singleClass }}" {{ end }}>
     {{ if $link }}
         <a href="{{ $link }}">
     {{ end }}  
@@ -44,7 +46,7 @@
     <figcaption>{{ if isset .Params "title" }}
         <h4 class="text-center">{{ .Get "title" }}</h4>{{ end }} 
         {{ if or (.Get "caption") (.Get "attr")}}
-        <p class="text-center">
+        <p>
             {{ .Get "caption" | markdownify }} 
         {{ with .Get "attrlink"}}<a href="{{.}}"> {{ end }}
             {{ .Get "attr" }}

@@ -1120,6 +1120,54 @@ footer {
 	top: 0.25rem;
 	right: 1.5rem;
 }
+main {
+  @media (min-width: 768px) {
+
+		figure.single {
+			display: flex;
+		}
+	}
+  @media (min-width: 768px) {
+
+		figure.single {
+			flex-direction: row;
+		}
+	}
+  @media (min-width: 768px) {
+
+		figure.single {
+			align-items: center;
+		}
+	}
+  @media (min-width: 768px) {
+
+		figure.single {
+			gap: 0.75rem;
+		}
+	}
+  figure.single {
+
+    a,
+    img {
+      flex: 1;
+      min-width: 150px;
+    }
+
+    figcaption {
+      flex: 3;
+    }
+  }
+
+  & > img,
+  & > figure {
+    display: block;
+    min-width: 250px;
+    height: auto;
+  }
+  img {
+    max-height: 50vh;
+  }
+}
 .grid-shortcode {
 	display: flex;
 	flex-wrap: wrap;

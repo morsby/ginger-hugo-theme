@@ -9,6 +9,32 @@ footer {
   @apply absolute top-1 right-6;
 }
 
+main {
+  figure.single {
+    @apply md:flex md:flex-row md:items-center md:gap-3;
+
+    a,
+    img {
+      flex: 1;
+      min-width: 150px;
+    }
+
+    figcaption {
+      flex: 3;
+    }
+  }
+
+  & > img,
+  & > figure {
+    display: block;
+    min-width: 250px;
+    height: auto;
+  }
+  img {
+    max-height: 50vh;
+  }
+}
+
 .grid-shortcode {
   @apply flex flex-wrap gap-3 justify-around;
 
